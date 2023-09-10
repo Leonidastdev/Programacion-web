@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #286b22;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+.fotografia {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ 
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#banner {
+    background-image: url('img-banner-dpe.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #ffffff;
+  
+}
+
+#banner h2 {
+    font-size: 36px;
+}
+
+.btn-reserva {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
