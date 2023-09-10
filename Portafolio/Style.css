@@ -9,10 +9,7 @@
 
 }
 
-.parrafo{
-    color:blue;
-    background-color:yellow;
-}
+
 .contenedor{
     max-width: 800px;
     margin: 0 auto;
@@ -40,30 +37,20 @@ color: white;
     color: white;
 }
 .fotografia {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         position: absolute;
         top: 20px;
         left: 20px;
         border-radius: 50%;
     }
 
-.columna{
-    color:blue;
-    border-radius:25px;
-    background-color:yellow;
-    border-style:solid;
-}
-.file{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-}
+
  .texto{
-    color:white;
+    color:rgb(255, 255, 255);
  }
  body{
-    background-image:url(IUE.jpg) ;
+    background-image:url(img-body-prt.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
