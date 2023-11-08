@@ -52,10 +52,22 @@ footer {
   
 }
 
-.fotografia{
-    width: 250px;
-    height: 250px;
-    border-radius:350px;
-  
-   
+.fotografia {
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    section {
+        margin: 10px;
+    }
 }

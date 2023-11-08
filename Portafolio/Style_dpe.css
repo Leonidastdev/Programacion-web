@@ -26,6 +26,25 @@ header h1 {
     border-radius: 50%;
 }
 
+.imagen {
+    width: 500px;
+    height: 200px;
+float: right;
+}
+.imagen_icon {
+    width: 200px;
+    height: 180px;
+float: right;
+}
+
+
+.imagen_i {
+    width: 500px;
+    height: 200px;
+float: left;
+}
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -70,6 +89,7 @@ section {
     padding: 40px;
     background-color: #fff;
     margin-bottom: 20px;
+   
 }
 
 section h2 {
@@ -87,4 +107,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.actividades {
+    text-align: left;
+
+}
+
+#alojamiento {
+text-align: right;
 }

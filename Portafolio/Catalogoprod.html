@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="Styleprod.css">
+</head>
+<header>
+    <h1>Tu tienda online</h1>
+
+</header>
+<body>
+    <div class="product">
+        <img src="escoba-con-mango-metalico-unidad-120cm-1.webp" alt="Producto 1">
+        <h3>Escoba</h3>
+        <p>Precio: $19.99</p>
+        <button class="buy-button" data-product="Escoba" data-price="19.99">Agregar al Carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="Limpido-Regular-3800-ml-127214_b.webp" alt="Producto 2">
+        <h3>Blanqueador</h3>
+        <p>Precio: $24.99</p>
+        <button class="buy-button" data-product="Blanqueador" data-price="24.99">Agregar al Carrito</button>
+    </div>
+    <div class="product">
+        <img src="trapeadora sistema giratorio o-cedar microfibras - 1.jpg" alt="Producto 3">
+        <h3>Trapeador con sistema giratorio</h3>
+        <p>Precio: $49.99</p>
+        <button class="buy-button" data-product="Trapeadora con sistema" data-price="49.99">Agregar al Carrito</button>
+    </div>
+    <div class="product">
+        <img src="882108880_1.jpg" alt="Producto 4">
+        <h3>Juego vajilla</h3>
+        <p>Precio: $109.99</p>
+        <button class="buy-button" data-product="Vajilla" data-price="109.99">Agregar al Carrito</button>
+    </div>
+    <!-- Agrega más productos aquí -->
+
+    <div class="cart">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items">
+            <!-- Los productos seleccionados se mostrarán aquí -->
+        </ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+    </div>
+
+    <script src="Script_prd.js"></script>
+</body>
+</html>
